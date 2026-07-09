@@ -25,7 +25,6 @@ function App() {
   };
 
   const socials = [
-    { icon: <FaFacebookF />, link: "#" },
     { icon: <FaWhatsapp />, link: `https://wa.me/2${user.phone}` },
     { icon: <FaLinkedinIn />, link: user.linkedin },
     { icon: <FaGithub />, link: user.github },
